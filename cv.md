@@ -3,6 +3,8 @@
 ### **My contacts** 
 
 email: <dubovets.mn@gmail.com> 
+
+linkedin: [linkedin.com/in/max-dubovets](https://www.linkedin.com/in/max-dubovets// "Max Dubovets")
   
 telegram:   [@maximque_d](https://t.me/maximque_d "Max Dubovets")
 
