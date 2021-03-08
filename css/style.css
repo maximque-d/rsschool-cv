@@ -7,6 +7,11 @@ a {
     color: #000;
     line-height: 20px;
 }
+h3 {
+  display: inline;
+  font-weight: normal;
+  font-size: 16px;
+}
 
 
 .container {
@@ -29,7 +34,7 @@ a {
     color: #fff;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 40px;
 }
 .header__name span {
     font-weight: 700;
@@ -40,6 +45,18 @@ a {
     height: 100px;
     margin: 65px 150px 0 0;
     border-radius: 50%;
+}
+.aboutme__title {
+  text-align: center;
+  margin: 40px;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 45px;
+  background-color: #000;
+}
+.aboutme__art {
+  margin: auto 40px;
 }
 .personal {
     margin-top: 30px;
@@ -74,6 +91,10 @@ a {
     padding: 15px 70px 15px 45px;
     background-color: #000;
     margin-bottom: 15px;
+}
+.contact__details li {
+  list-style: none;
+  padding-right: 20px;
 }
 .education__inner li {
     list-style: none;
