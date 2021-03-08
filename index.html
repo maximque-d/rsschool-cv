@@ -12,24 +12,41 @@
 </head>
 
 <body>
-    <div class="container">
+    <main class="container">
         <header class="header">
             <div class="header__inner">
-                <div class="header__name">
+                <h1 class="header__name">
                     <span>Max</span> Dubovets
-                </div>
+                </h1>
                 <div class="header__photo">
                     <img src="./images/cv-photo.JPG" alt="my photo">
                 </div>
             </div>
         </header>
+        
+        <section class="aboutme">
+            <div class="aboutme__inner">
+                <h2 class="aboutme__title">
+                    About me
+                </h2>
+                <article class="aboutme__art">
+                    <h3>
+                        My main goal is to get up-to-date knowledge in the field of front-end development.
+                        I consider independence, stress resistance, honesty as my strengths.
+                        Civil engineer by education, no development experience.
+                        I chose web development because the result of your work is immediately visible.
+                        In general, programming helps to keep the brain in good shape.
+                    </h3>
+                </article>
+            </div>
+        </section>
 
         <section class="personal">
             <div class="personal__inner">
                 <div class="personal__item">
-                    <div class="personal__title">
+                    <h2 class="personal__title">
                         Personal Details
-                    </div>
+                    </h2>
                     <div class="personal__details">
                         <ul class="details-item">
                             <li>Name</li>
@@ -48,13 +65,16 @@
                     </div>
                 </div>
                 <div class="contact__item">
-                    <div class="contact__title">
+                    <h2 class="contact__title">
                         Contact Me
-                    </div>
+                    </h2>
                     <div class="contact__details">
-                        <a href="mailto:dubovets.mn@gmail.com">dubovets.mn@gmail.com</a> </br>
-                        <a href="https://www.linkedin.com/in/max-dubovets/">linkedin.com/in/max-dubovets/</a> </br>
-                        <a href="https://t.me/maximque_d">t.me/maximque_d</a>
+                        <ul>
+                            <li><a href="mailto:dubovets.mn@gmail.com">dubovets.mn@gmail.com</a> </li>
+                            <li><a href="https://www.linkedin.com/in/max-dubovets/">linkedin.com/in/max-dubovets</a>
+                            </li>
+                            <li><a href="https://t.me/maximque_d">t.me/maximque_d</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -62,23 +82,25 @@
 
         <section class="education">
             <div class="education__inner">
-                <div class="education__title personal__title">
+                <h2 class="education__title personal__title">
                     Education
-                </div>
+                </h2>
                 <ul>
-                    <li>Web Development for Beginners: HTML and CSS by <a
-                            href="https://stepik.org/course/38218/promo#toc">STEPIK</a></li>
-                    <li>Course from 0 to 1 by <a href="https://www.youtube.com/c/%D0%BE%D1%820%D0%B4%D0%BE1">Vadim
-                            Prokopchuk</a></li>
+                    <li>Web Development for Beginners: HTML and CSS by 
+                        <a href="https://stepik.org/course/38218/promo#toc">STEPIK</a>
+                    </li>
+                    <li>Course from 0 to 1 by 
+                        <a href="https://www.youtube.com/c/%D0%BE%D1%820%D0%B4%D0%BE1">Vadim Prokopchuk</a>
+                    </li>
                 </ul>
             </div>
         </section>
 
         <section class="skills">
             <div class="skills__inner">
-                <div class="skills__title personal__title">
+                <h2 class="skills__title personal__title">
                     Skills and Tools
-                </div>
+                </h2>
                 <ul>
                     <li>HTML Basic</li>
                     <li>CSS Basic</li>
@@ -91,14 +113,14 @@
         </section>
 
         <section class="english">
-            <div class="english__title personal__title">
+            <h2 class="english__title personal__title">
                 English
-            </div>
+            </h2>
             <div class="english__lvl">
                 <span>A1-A2</span>
             </div>
         </section>
-    </div>
+    </main>
 </body>
 
 </html>
